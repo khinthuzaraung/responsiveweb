@@ -133,3 +133,225 @@
 .payments {
 	font-size: 1.5em;	
 }
+
+
+
+ .header {
+ 	text-align: center;
+ 	font-size: 50px;
+ 	line-height: 90px;
+ 	font-style: bold;
+ 	font-family: Ubuntu;
+ 	color: #2B3247;
+ 	margin-top: 110px;
+ }
+ .small-header {
+ 	opacity: 0.5;
+ 	color: #2B3247;
+ 	text-align: center;
+ 	font-size: 12px;
+ 	line-height: 14px;
+ 	font-style: medium;
+ 	font-family: Ubuntu;
+ }
+ .employers {
+ 	width: 179px;
+ 	height: 100px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	line-height: 100px;
+    text-align: right;
+ }
+ .fl {
+ 	overflow: overflow;
+ }
+ .candidates {
+ 	width: 191px;
+ 	height: 100px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	line-height: 100px;
+ 	opacity: 0.2;
+ 	color: #8C93AA;
+ }
+ .description {
+ 	text-align: left;
+ }
+ .description h2 {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 38px;
+ 	line-height: 44px;
+ 	color: #2CA1F8;
+    text-decoration-line: underline;
+ }
+ .description h3 {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 25px;
+ 	line-height: 29px;
+ 	color: #2B3247;
+ }
+ .description p {
+ 	font-family: Ubuntu;
+ 	font-style: Light;
+ 	font-size: 16px;
+ 	line-height: 24px;
+ 	opacity: 0.5;
+ 	color: #000000;
+ }
+ .find-btn {
+ 	border-radius: 25px;
+ 	
+ }
+ .btn-text {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 13px;
+ 	text-align: center;
+ 	color: #000000;
+ }
+
+ @media only screen and (min-width: 765px) {
+ 	.mobile {
+ 		display: none;
+ 	}
+ 	.triangle1 {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        border-top: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-left: 600px solid #8296AF;
+        border-bottom: 300px solid transparent;
+        opacity: 0.1;
+        transform: rotate(-6deg);
+        mix-blend-mode: normal;
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+    .triangle2 {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        border-top: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-left: 600px solid #8296AF;
+        border-bottom: 300px solid transparent;
+        opacity: 0.1;
+        transform: rotate(-55deg);
+        mix-blend-mode: normal;
+        margin-left: 55%;
+        margin-top: -10%;
+    }
+    .triangle3 {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        border-top: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-left: 600px solid #8296AF;
+        border-bottom: 300px solid transparent;
+        opacity: 0.1;
+        transform: rotate(-45deg);
+        mix-blend-mode: normal;
+        margin-left: -30%;
+        margin-top: -20%;
+    }
+
+ }
+
+ @media only screen and (max-width: 765px) {
+
+ 	 .desktop {
+ 		display: none;
+ 	}
+
+ 	body {
+ 		background-image: linear-gradient(#2FB7F3, #769ADC, #9376DC);
+ 	}
+ 	.services {
+ 		padding-top: 23px;
+ 		padding-left: 20px;
+ 		font-family: Ubuntu;
+ 		font-style: bold;
+ 		font-size: 14px;
+ 		line-height: 29px;
+ 		text-align: left;
+ 		color: #FFFFFF;
+ 	}
+ 	h1 {
+ 		padding-left: 20px;
+ 		width: 60%;
+ 		font-family: Ubuntu;
+ 		font-style: bold;
+ 		font-size: 25px;
+ 		line-height: 29px;
+ 		text-align: left;
+ 		color: #FFFFFF;
+ 	}
+ 	.desc {
+ 		background: #FFFFFF;
+ 		margin-left: 10px;
+ 		margin-right: 10px;
+ 		margin-bottom: 15%;
+ 		margin-top: 10%;
+ 		height: 291px;
+ 	  text-align: center;
+ 	  outline-offset: 0px 2px;
+ 	  opacity: 0.9;
+ }
+ .desc h2 {
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	color: #2CA1F8;
+ 	padding-top: 20px;
+    text-decoration-line: underline;
+ }
+ .dese h3 {
+ 	padding-top: 37px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 16px;
+ 	color: #2B3247;
+ }
+ .desc p {
+ 	padding-top: 10px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	text-align: center;
+ 	font-family: Ubuntu;
+ 	font-style: light;
+ 	font-size: 14px;
+ 	line-height: 20px;
+ 	opacity: 0.5;
+ 	color: #000000;
+ }
+ .find-btn {
+ 	background: transparent;
+ 	margin-left: 70%;
+ 	margin-top: -75px;
+ }
+ .btn-text {
+ 	color: #FFFFFF;
+ }
+ .emp {
+ 	color: #FFFFFF;
+ 	line-height: 18px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 16px;
+ 	margin-top: 15%;
+ }
+ .can {
+ 	color: #FFFFFF;
+ 	line-height: 18px;
+ 	font-family: Ubuntu;
+ 	font-style: bold;
+ 	font-size: 16px;
+ 	opacity: 0.3;
+ 	margin-top: 15%;
+ }
